@@ -2,6 +2,7 @@
   "name": "api-de-pets",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
@@ -13,7 +14,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "node": "^24.6.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
